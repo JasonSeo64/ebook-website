@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="계리학의 역사: 21세기 AI와 미래">
+    <meta name="keywords" content="계리학, AI, Solvency II, IFRS 17, ESG">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.toc a').click(function(e) {
+                var href = $(this).attr('href');
+                // 현재 페이지 내 링크(예: #section1)면 스크롤, 외부 링크(예: chapter1.html)면 이동
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    $(href).get(0).scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    // 외부 링크는 기본 동작(페이지 이동) 허용
+                    window.location.href = href;
+                }
+            });
+        });
+    </script>
+    <title>챕터 8: 21세기 – 보험계리학의 여정</title>
+</head>
+<body>
+    <nav class="toc">
+        <a href="index.html">목차로 돌아가기</a> | 
+        <a href="chapter7.html">이전: 챕터 7</a> | 
+        <a href="chapter9.html">다음: 챕터 9</a>
+    </nav>
+
+    <h1>챕터 8: 21세기 – AI와 미래</h1>
+    <p>21세기는 기술 폭발과 글로벌 위기(금융 위기, COVID-19, 기후 변화)로 보험계리학이 급변한 시대입니다. AI와 빅데이터로 무장하여, 사망률 계산에서 지속 가능성 리스크로 확장되었습니다.</p>
+    <p>The 21st century is an era of rapid transformation in actuarial science, driven by technological explosions and global crises (financial crisis, COVID-19, climate change). Armed with AI and big data, it has expanded from mortality calculations to sustainability risks.</p>
+
+    <h2>글로벌 금융 위기와 리스크 모델(Global Financial Crisis and Risk Models)</h2>
+    <p>2008년 글로벌 금융 위기는 리스크 모델을 강화하였습니다. 보험계리사들이 Basel III(2010)에 기여하며 자본 요구사항을 개선하였습니다. 빅데이터로 telematics 보험이 등장하였습니다.</p>
+    <p>The 2008 global financial crisis strengthened risk models. Actuaries contributed to Basel III (2010), improving capital requirements, and big data gave rise to telematics insurance.</p>
+
+    <img src="images/figure8.1.png" alt="AI 데이터 센터">
+    <p class="caption">그림 8.1: AI 기반 위험 시뮬레이션, 2024</p>
+
+    <h2>Solvency II와 IFRS 17</h2>
+    <p>2016년 Solvency II는 유럽 보험 규제로, AI 등 첨단 위험 평가 기법의 도입을 촉진하고, 내부 모델 사용 기준을 강화했습니다.</p>
+    <p>2023년 IFRS 17은 보험 계약의 위험 평가를 투명화하였습니다.</p>
+    <p>Solvency II, implemented in 2016 as a European insurance regulation, promoted the adoption of advanced risk assessment techniques like AI and strengthened criteria for internal model usage.</p>
+    <p>IFRS 17, introduced in 2023, enhanced the transparency of risk assessments in insurance contracts.</p>
+
+    <h2>COVID-19와 GenAI</h2>
+    <p>2020년 COVID-19 팬데믹은 실시간 mortality modeling을 촉진하였습니다. SOA가 연구를 주도하며 stochastic models을 강화하였습니다.</p>
+    <p>2024~2025년 Generative AI와 ESG 중심의 기후 모델 개발이 본격화되었습니다.</p>
+    <p>The COVID-19 pandemic in 2020 accelerated real-time mortality modeling. The SOA led research, reinforcing stochastic models.</p>
+    <p>From 2024 to 2025, the development of Generative AI and ESG-focused climate models gained momentum.</p>
+
+    <img src="images/figure8.2.png" alt="기후 변화 시뮬레이션 그래프">
+    <p class="caption">그림 8.2: 기후 변화 리스크 모델링, 2025</p>
+
+    <p>이 시기의 공통 테마는 융합과 적응입니다. 보험계리학은 AI를 통해 새로운 전기를 마련하고 있습니다.</p>
+    <p>The common theme of this period is integration and adaptation. Actuarial science is opening a new chapter through AI.</p>
+    <br/>
+    <h2>요약 테이블(Summary)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>연도</th>
+                <th>주요 제도/사건</th>
+                <th>설명</th>
+                <th>보험계리학과의 연관성</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008</td>
+                <td>글로벌 금융 위기</td>
+                <td>리스크 모델 강화, Basel III 기여</td>
+                <td>금융 안정성 모델링의 재평가, 자본 요구사항</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Solvency II 시행</td>
+                <td>유럽 보험 자본 규제, AI 활용</td>
+                <td>AI 기반 위험 평가 기법 촉진</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>COVID-19 팬데믹</td>
+                <td>실시간 mortality modeling, SOA 연구</td>
+                <td>팬데믹 리스크 예측 혁신, stochastic 모델</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>IFRS 17 시행</td>
+                <td>보험 회계 표준, 리스크 회계</td>
+                <td>투명한 리스크 회계 체계</td>
+            </tr>
+            <tr>
+                <td>2024-2025</td>
+                <td>GenAI 통합 & ESG 포커스</td>
+                <td>AI 사례 연구와 기후 모델</td>
+                <td>지속 가능성과 기술 융합</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>데이터 사이언스 융합</td>
+                <td>직업 시장 트렌드(AI·기후)</td>
+                <td>글로벌 협력과 윤리 표준 강화</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>출처(References)</h2>
+    <ul class="references-list">
+        <li>Basel Committee on Banking Supervision (2010). <i>Basel III: A Global Regulatory Framework</i>.</li>
+        <li>European Insurance and Occupational Pensions Authority (2016). <i>Solvency II Directive</i>.</li>
+        <li>Society of Actuaries (2020). “COVID-19 Mortality Modeling Survey Summary of Results.”</li>
+    </ul>
+</body>
+</html>
